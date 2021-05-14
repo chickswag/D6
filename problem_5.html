@@ -1,0 +1,28 @@
+<script>
+// var funcs = [];
+// for (var i = 0; i < 3; i++) {
+//     funcs[i] = function() {
+//         output += console.log("My value: " + i);
+// 	};
+// }
+//
+// for (var j = 0; j < 3; j++) {
+//     funcs[j]();
+// }
+
+//  the output gets overridden because its within the first loop
+<!--proposed solution-->
+<!--create a call function and loop from the first loop which builds the array and console values from the array build using another loop-->
+function getValue(){
+    let funcs = [];
+    for (let i = 0; i < 3; i++) {
+    funcs[i] = i
+
+    }
+    for(let x in funcs){
+        console.log("My value: " + x);
+    }
+}
+getValue()
+
+</script>

@@ -1,19 +1,46 @@
-<!-- Type -->
-<select id="d1">
-</select>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Group -->
-<select id="d2">
-</select>
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>D6</title>
 
-<!-- Items -->
-<select id="d3">
-</select>
+    <!-- Scripts -->
 
-<script src="JS/jquery-1.11.3.min.js"></script>
-<script>
-	$(document).ready(function() {
-		// Start Here
-		
-	});
-</script>
+    <script src="JS/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="JS/menu.js"></script>
+    <!-- Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="CSS/app.css" rel="stylesheet">
+    <meta name="D6" content="">
+
+    <meta name="csrf-token" content="{!! csrf_token() !!}">
+
+    <link href="CSS/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+    <link href="CSS/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+
+</head>
+<body>
+<div class="container pt-5">
+            <!-- Type -->
+            <select id="d1">
+            </select>
+
+            <!-- Group -->
+            <select id="d2">
+            </select>
+
+            <!-- Items -->
+            <select id="d3">
+            </select>
+
+</div>
+
+</body>
+</html>

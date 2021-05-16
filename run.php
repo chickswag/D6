@@ -10,5 +10,5 @@ $test->calculate_factor($number);
 
 // fibonacci sequence
 $max = 10;
-$testfibonacci = new Fibonacci();
-$testfibonacci->fibonacci_sequence($max);
+$testFibonacci = new Fibonacci();
+$testFibonacci->fibonacci_sequence($max);

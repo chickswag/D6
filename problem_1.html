@@ -1,11 +1,9 @@
 <!doctype html>
-<html>
+<html lang="">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>D6</title>
 
     <!-- Scripts -->
@@ -15,32 +13,36 @@
     <!-- Fonts -->
 
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
+    <link href="CSS/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
     <!-- Styles -->
-    <link href="CSS/app.css" rel="stylesheet">
-    <meta name="D6" content="">
-
-    <meta name="csrf-token" content="{!! csrf_token() !!}">
-
     <link href="CSS/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" >
-    <link href="CSS/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+    <link href="CSS/custom.css" rel="stylesheet" type="text/css" >
 
 </head>
 <body>
-<div class="container pt-5">
-            <!-- Type -->
-            <select id="d1">
-            </select>
+    <div class="container">
+        <div class="card">
+            <div class="d-flex flex-wrap justify-content-start">
+                <div class="flex-grow-1">
+                    <div class="bg-secondary text-white text-center p-2 "><h4>Dropdown 1</h4></div>
+                    <div id="d1">
+                    </div>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="bg-secondary text-white text-center p-2"><h4>Dropdown 2</h4></div>
+                    <div id="d2">
+                    </div>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="bg-secondary text-white text-center p-2"><h4>Dropdown 3</h4></div>
+                    <div id="d3">
+                    </div>
+                </div>
+            </div>
 
-            <!-- Group -->
-            <select id="d2">
-            </select>
+        </div>
 
-            <!-- Items -->
-            <select id="d3">
-            </select>
-
-</div>
+    </div>
 
 </body>
 </html>
